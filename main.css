@@ -1,0 +1,58 @@
+html {
+    background-image: url(./assets/pexels-monstera-6373309.jpg);
+    background-size: cover;
+}
+
+body {
+    background: rgba(255,255,255,0.8);
+    width:600px;
+    padding: 10px 100px;
+    margin: 100px auto;
+    display: block;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(48, 151, 17, 0.8);
+    text-align: center;
+    font-weight: 200;
+
+}
+
+li {
+    margin-bottom: 15px;
+
+}
+
+button {
+    background-color: rgba(48, 151, 17, 0.8);
+    color: rgb(255,255,255);
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    font-size: 15px;
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 5px;
+    height: 20px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+#mad_lib_results {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
